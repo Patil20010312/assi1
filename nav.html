@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #262626;
+        }
+
+        .navbar .search-bar {
+            flex: 1;
+            margin: 0 15px;
+        }
+
+        .navbar .search-bar input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .navbar .nav-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .navbar .nav-icons a {
+            text-decoration: none;
+            color: #262626;
+            font-size: 20px;
+        }
+
+        .navbar .nav-icons a:hover {
+            color: #0095f6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">Instagram</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="nav-icons">
+            <a href="#" title="Home">🏠</a>
+            <a href="#" title="Messages">✉️</a>
+            <a href="#" title="Notifications">🔔</a>
+            <a href="#" title="Profile">👤</a>
+        </div>
+    </div>
+
+    <div style="margin-top: 60px; text-align: center;">
+        <h1>Instagram Navbar Example</h1>
+        
+    </div>
+
+</body>
+</html>
